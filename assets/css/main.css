@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/homepage-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    font-family: 'Muli', sans-serif;
+    color: white;
+    z-index: 7;
+}
+    header>img {
+        width: 65px;
+        float: left;
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+        header>img:hover {
+            cursor: pointer;
+        }
+
+    header>nav {
+        float: right;
+        margin-right: 3%; 
+    }
+        header>nav>ul>li {
+            display: inline-block;
+            list-style: none;
+            width: 90px;
+            font-size: 18px;
+            margin-left: 5px;
+            line-height: 100px;
+        }
+        
+        header>nav>ul>li:hover{
+            color: deeppink;
+            cursor: pointer;
+        }
+            header>nav>ul>li>button {
+                width: 100%;
+                padding: 10px 0;
+                border: 1px solid white;
+                border-radius: 9px;
+                background-color: rgba(255, 255, 255, 0);
+                color: white;
+                font-family: 'Muli', sans-serif;
+                font-size: 18px;
+            }
+                #botonLogInNav:hover {
+                    background-color: rgba(255, 255, 255, 0.35);
+                    cursor: pointer;
+                }
+
+            #botonSingUpNav {
+                border-color: deeppink;
+                color: deeppink;
+                display: none;
+            }
+                #botonSingUpNav:hover {
+                    cursor: pointer;
+                }
+/*.cabezalScroll {
+    background-color: white;
+    color: gray;
+}*/
+
+/* seccion1 */
+
+#seccion1{
+    clear: both;
+    margin-top: 0px;
+    position: relative;
+}
+
+#formulario {
+    width: 40%;
+    height: 100%;
+    background-color: #fff;
+    float:right;
+    font-family: "arial";
+    color: #36218c;
+    padding-left: 50px;
+    padding-top: 70px;
+    padding-bottom: 80px;
+    margin-top: 100px;
+}
+
+#formulario .tituloForm{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+#formulario .formularioText{
+    margin-top: 20px;
+    font-size: 90%;
+}
+
+.numTel{
+    margin-top: 10px;
+    width: 90%;
+}
+.numTel .inputs{
+    width: 90%;
+    height: 40px;
+    background-color: none;
+    border: none;
+}
+
+.botones{
+    display: inline-block;
+}
+
+.botonDriver{
+    margin-top: 15px;
+    background-color: #ff00bf;
+    border: none;
+    border-radius: 7px;
+    height: 40px;
+    width: 200px;
+    color: #fff;
+    font-size: 90%;
+}
+
+.botonSign{
+    margin-top: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 7px;
+    height: 40px;
+    width: 200px;
+    color: #6e6f80;
+    text-decoration: underline;
+    font-size: 90%;
+}
+
+.infoAdicional{
+    margin-top: 30px;
+    color: #6e6f80;
+    font-size: 70%;
+}
+.infoAdicional .linkInfo{
+    color: #ff00bf;
+    text-decoration: none;
+}
+
+/*seccion2*/
+#sectionTelefono{
+    clear: both;
+    background: linear-gradient(#75268E, #301F69) fixed;
+    padding: 20px;
+}
+
+#contenidoSectionTelefono{
+    margin: auto;
+    width: 900px;
+    height: 100%;
+/*    background-color: aqua;*/
+}
+    #textoSectionTelefono{
+        color: #fff;
+        display: inline-block;
+        margin-top: 10%;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-bottom: 10%;
+        width: 40%;
+    }
+        .tituloBloqueText{
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .contBloqueText{
+/*            font-family: "Helvetica Neue";*/
+            font-weight: 300;
+            margin-bottom: 50px;
+        }
+
+#imgCelular{
+    width: 35%;
+    display: inline-block;
+    position: absolute;
+    margin-top: 60px;
+    margin-bottom: 10px;    
+}
+    #imgCelular>img{
+        width: 100%;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+
+/*  sección videos  */
+.divisionesTextoVideo {
+    display: block; 
+}
+    .video {
+        width: 65%;
+    }
+        .video img {
+            width: 100%;
+            min-width: 400px;
+        }
+        .video iframe {
+            width: 100%;
+            min-width: 400px;
+            display: none;
+        }
+
+.textoLadoVideo {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 25%;
+    min-width: 100px;
+    margin-top: 10%;
+    font-weight: 300;   
+}
+    .textoLadoVideo h6 {
+        font-size: 14px;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+    .textoLadoVideo h3 {
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        margin-bottom: 20px;
+    }
+
+.floatDer {
+    float: right;
+}
+
+.floatIzq {
+    clear: both;
+    float: left;
+}
+
+#textoLadoVideo2 {
+    margin-right: 5%;
+}
+#textoLadoVideo1,
+#textoLadoVideo3 {
+    margin-left: 5%;
+}
+
